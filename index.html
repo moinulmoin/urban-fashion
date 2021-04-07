@@ -351,24 +351,10 @@
     </footer>
     <!-- Here Footer Section End -->
 
-
-
     <script src="./node_modules/feather-icons/dist/feather.min.js"></script>
+    <script src="js/script.js"></script>
     <script>
         feather.replace();
-
-        // Mega Menu Script
-        let mainMenu = document.querySelector(".main-menu")
-        let megaMenu = document.querySelector(".mega-menu")
-        mainMenu.addEventListener("mouseover", function(){
-            megaMenu.classList.add("show-mega-menu");
-            mouseleave();
-        })
-        function mouseleave() {
-            megaMenu.addEventListener("mouseleave", function(){
-            megaMenu.classList.remove("show-mega-menu");
-        })
-        }
     </script>
 </body>
 
